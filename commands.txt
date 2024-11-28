@@ -1,0 +1,42 @@
+In the **DNA Sequence Analysis Tool**, here’s what you can input into the provided tabs:
+
+### **1. Input DNA Sequence**
+- Go to the **sidebar** and paste a valid DNA sequence in the text box.
+- Example:
+  ```
+  ATGCGTACGTTAGC
+  ```
+  - The sequence can contain only **A, T, G, or C** (case-insensitive).
+  - Avoid including spaces, numbers, or special characters.
+
+---
+
+### **2. Mutation Finder**
+- After entering a valid DNA sequence, scroll to the **Mutation Finder** section.
+- Input a **mutated version of the DNA sequence** to compare it with the original.
+- Example:
+  - Original Sequence: `ATGCGTACGTTAGC`
+  - Mutated Sequence: `ATGCGGACGTTAGT`
+    - The tool will highlight the positions and details of the mutations:
+      - Position 6: Original = T, Mutated = G
+      - Position 13: Original = C, Mutated = T
+
+---
+
+### **3. Sequence Motif Finder**
+- Scroll to the **Sequence Motif Finder** section.
+- Enter a **short DNA motif** (a pattern of nucleotides) to search for in the original sequence.
+- Example:
+  - DNA Sequence: `ATGCGTACGTTAGC`
+  - Motif: `CGT`
+    - The tool will show positions where the motif occurs:
+      - Found at positions: 3, 8
+
+---
+
+### Example Workflow
+1. Enter the DNA sequence: `ATGCGTACGTTAGC`.
+2. For Mutation Finder, input a mutated sequence like `ATGCGGACGTTAGT`.
+3. For Motif Finder, search for a motif like `CGT`.
+
+The tool will provide analyses based on the input you provide in each section.
